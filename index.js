@@ -31,4 +31,6 @@ resetBtn.addEventListener("click",(e)=>{
   [minutes,seconds] = [0,0];
   minutess.innerHTML = "00";
   secondss.innerHTML = "00";
+  startBtn.disabled = false;
+  pauseBtn.disabled = false;
 });
